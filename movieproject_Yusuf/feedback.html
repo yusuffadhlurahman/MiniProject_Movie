@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USEENEMA</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- font awesome -->
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand"><span class="text-warning">U SEE </span>NEMA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="movies.html">Movie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="series.html">Series</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="feedback.html">Feedback</a>
+                  </li>        
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+         <!-- navbar ends -->
+         
+   
+      <!-- feedback starts -->
+      <section id="feedback" class="feedback section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Feedback Form</h2>
+                        <p>Please let us know your feedback to improve our movie website.</p>
+                    </div>
+                </div>
+            </div>
+			<div class="row m-0">
+				<div class="col-md-12 p-0 pt-4 pb-4">
+					<form action="https://formsubmit.co/ea617cad39da177d9abd91bd3d2563d0" method="POST" class="bg-light p-4 m-auto">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mb-3">
+									<input type="text" class="form-control" placeholder="Name" required>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="mb-3">
+									<input type="email" class="form-control" placeholder="Email" required>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="mb-3">
+									<textarea class="form-control"rows="3" placeholder="Message" required></textarea>
+								</div>
+							</div><button class="btn btn-warning btn-lg btn-block mt-3" type="submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+      </section>
+      <!-- contact ends -->
+      <!-- footer starts -->
+      <footer class="bg-dark p-2 text-center">
+          <div class="container">
+              <p class="text-white">All Right Reserved By @USEENEMA. Created by Yusuf Nauval Fadhlurahman.</p>
+          </div>
+      </footer>
+      <!-- footer ends -->
+    
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/smtp.js"></script>
+    <script> 
+      function sendEmail(){
+        Email.send({
+          secureToken: "2dc27069-08c6-48f9-8f12-8c2f873ba4aa",
+          To : 'yusufnauvalf@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "New Feedback",
+          Body : "Name:" + document.getElementById("name").value
+          +"<br> Email: " + document.getElementById("email").value
+          +"<br> Message: " + document.getElementById("message").value
+        })
+        .then(
+          message => alert("Berhasil Terkirim")
+        );
+      }
+    </script> -->
+</body>
+</html>
+
+
+
+
+<!--for getting the form download the code from download button-->
